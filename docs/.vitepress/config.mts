@@ -321,7 +321,12 @@ export default withMermaid({
                 {
                   text: 'netty',
                   link: '/backend/io/netty'
-                }]
+                },
+                {
+                  text: '工作日报',
+                  link: '/backend/io/工作日报'
+                },
+                ]
             },
             {text: '工具类', link: '/backend/utils/index'},
             {
