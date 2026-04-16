@@ -394,38 +394,38 @@ export default withMermaid({
       level: [1, 2]
     },
     search: {
-      provider: 'algolia',
-      options: {
-        appId: 'XJIK8HJPUR',
-        apiKey: '1f506bb507e452a1b40f004070d674d0',
-        indexName: 'chargeduckNotes',
-        locales: {
-          root: {
-            placeholder: '搜索文档',
-            translations: {
-              button: {
-                buttonText: '搜索',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                searchBox: {
-                  resetButtonTitle: '清除',
-                  cancelButtonText: '取消'
-                },
-                startScreen: {
-                  recentSearchesTitle: '搜索历史',
-                  noRecentSearchesText: '暂无搜索记录'
-                },
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                  closeText: '关闭'
-                }
-              }
-            }
-          }
-        }
-      }
+      provider: 'localhost',
+      // options: {
+      //   appId: 'XJIK8HJPUR',
+      //   apiKey: '1f506bb507e452a1b40f004070d674d0',
+      //   indexName: 'chargeduckNotes',
+      //   locales: {
+      //     root: {
+      //       placeholder: '搜索文档',
+      //       translations: {
+      //         button: {
+      //           buttonText: '搜索',
+      //           buttonAriaLabel: '搜索文档'
+      //         },
+      //         modal: {
+      //           searchBox: {
+      //             resetButtonTitle: '清除',
+      //             cancelButtonText: '取消'
+      //           },
+      //           startScreen: {
+      //             recentSearchesTitle: '搜索历史',
+      //             noRecentSearchesText: '暂无搜索记录'
+      //           },
+      //           footer: {
+      //             selectText: '选择',
+      //             navigateText: '切换',
+      //             closeText: '关闭'
+      //           }
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
 })
