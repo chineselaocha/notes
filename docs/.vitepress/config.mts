@@ -6,7 +6,7 @@ import {withMermaid} from 'vitepress-plugin-mermaid'
 export default withMermaid({
   base: '/notes/',
   title: 'notes',
-  description: '后端仔的学习笔记',
+  description: 'oldTea的学习笔记',
   vite: {},
   markdown: {
     lineNumbers: true
@@ -396,8 +396,8 @@ export default withMermaid({
     search: {
       provider: 'algolia',
       options: {
-        appId: '0HXPSG76HI',
-        apiKey: 'cb3075b947232c05052a0ae4eabda6a3',
+        appId: 'XJIK8HJPUR',
+        apiKey: '1f506bb507e452a1b40f004070d674d0',
         indexName: 'chargeduckNotes',
         locales: {
           root: {
